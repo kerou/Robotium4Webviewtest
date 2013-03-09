@@ -8,5 +8,5 @@
     <uses-library android:name="android.test.runner" />
     </application>
     <uses-sdk android:minSdkVersion="10" />
-    <instrumentation android:targetPackage="com.mkyong.android" android:name="android.test.InstrumentationTestRunner" />
+    <instrumentation android:targetPackage="com.myapp" android:name="android.test.InstrumentationTestRunner" />
 </manifest> 

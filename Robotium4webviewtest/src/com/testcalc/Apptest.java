@@ -8,8 +8,8 @@ import android.test.ActivityInstrumentationTestCase2;
 
 @SuppressWarnings("unchecked")
 public class Apptest extends ActivityInstrumentationTestCase2 {
-	private static final String TARGET_PACKAGE_ID = "com.mkyong.android";
-	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.mkyong.android.MainActivity";
+	private static final String TARGET_PACKAGE_ID = "com.myapp";
+	private static final String LAUNCHER_ACTIVITY_FULL_CLASSNAME = "com.myapp.MainActivity";
 	private static Class launcherActivityClass;
 
 	Properties cfg = new Properties();
