@@ -13,12 +13,14 @@ public class Testcase1 extends Apptest{
 		super();
 	}
 
-	public void testDisplayBlackBox() throws IOException {
+	public void testWebview() throws IOException {
 
 		Commonval.log(this.getName().toString());
 		
 		solo.clickOnText("Go to");
-		solo.waitForWebElement(By.textContent("Hello, WebView"), 10, false);
-		solo.sleep(5000);
+		solo.waitForWebElement(By.textContent("Coffee"), 10, false);
+		solo.clickOnWebElement(By.textContent("Coffee"));
+
+		solo.sleep(50000);
 	}
 }
